@@ -62,10 +62,9 @@ function descargar(){
   const imagen = document.getElementById('grafico');
   const dataURL = imagen.toDataURL('image/jpeg', 1.0);
   
- 
   let enlace = document.createElement('a');
   enlace.href = dataURL;
-  enlace.download = enlace;
+  enlace.download = 'miGrafico';
   document.body.appendChild(enlace);
   enlace.click();
   enlace.parentNode.removeChild(enlace);
