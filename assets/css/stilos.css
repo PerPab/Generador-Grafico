@@ -1,10 +1,15 @@
 
 
-body{
+
+html, body{
+    height: 100%;
     width: 100%;
-    
-    
+    background: rgb(39, 10, 118); 
 }
+
+canvas {
+    background-color: azure;
+ }
 .container{
     position: relative; 
     height:90vh; 
@@ -23,8 +28,22 @@ body{
     
 }
 
+.firma, .enlace{
+    color: azure;
+}
 
 
+.cuadro{
+    background-color: rgb(71, 35, 170);
+    border: 1px solid azure;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    color:azure;
+    font-weight: bold;
+    border-radius: 15px;
+
+}
 
 
 
