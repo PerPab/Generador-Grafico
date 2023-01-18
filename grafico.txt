@@ -1,0 +1,31 @@
+const grafico = document.getElementById('grafico').getContext('2d');
+
+new Chart(grafico, {
+  type: 'bar',
+  data: {
+    labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+    datasets: [{
+      label: '# of Votes',
+      data: ['12', '19', 3, 5, 2, 3],
+      borderWidth: 2
+    }]
+},
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true
+      }
+    }
+  }
+});
+
+
+
+const array1 = [1, 4, 9, 16];
+
+// Pass a function to map
+const map1 = array1.map(x => x * 2);
+
+console.log(map1);
+// Expected output: Array [2, 8, 18, 32]
+

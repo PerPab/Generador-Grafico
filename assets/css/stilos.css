@@ -1,0 +1,54 @@
+
+
+body{
+    width: 100%;
+    
+    
+}
+.container{
+    position: relative; 
+    height:90vh; 
+    width:100%;
+}
+
+.oculta{
+    display: none;
+}
+
+.contenedor{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
+
+    canvas{
+        width: 100%;
+        
+    }
+    
+    
+
+
+
+}
