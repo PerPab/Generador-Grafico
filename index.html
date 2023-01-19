@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>| Graficos |</title>
+    <title> Generador de gráficos</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./assets/css/reset.css">
@@ -28,19 +28,19 @@
             </div>
         </div>
 
-        <div id="panel" class="panel">
+        <div id="panel" class="panel mt-3">
             <div class="cuadro mb-2 mt-3">
                 <div class="form-group mt-3">
-                    <label for="titulo">Titulo</label>
+                    <label for="titulo">Título</label>
                     <input type="text" class="form-control mt-1" id="titulo"
-                        placeholder="Ingrese un titulo para su grafico">
+                        placeholder="Ingrese un título para su gráfico">
                 </div>
             </div>
             <div class="cuadro mb-2 mt-3">
                 <div class="form-group mt-3">
                     <label for="etiquetas">Ingresar las etiquetas separadas por comas</label>
                     <input type="text" class="form-control mt-1" id="etiquetas"
-                        placeholder="Ej: Lunes, Martes, Miercoles">
+                        placeholder="Ej: Lunes, Martes, Miércoles">
                 </div>
             </div>
             <div class="cuadro mb-2 mt-3">
@@ -51,10 +51,10 @@
             </div>
             <div class="cuadro mb-2 mt-3">
                 <div class="form-group mt-3 mb-3">
+                    <label for="tipos">Seleccione el tipo de gráfico</label>
                     <select class="form-select" aria-label="tipos" id="tipos">
-                        <option selected>Seleccione el tipo de grafico</option>
                         <option value="bar">Barras</option>
-                        <option value="line">Linea</option>
+                        <option value="line">Línea</option>
                         <option value="pie">Torta</option>
                     </select>
                 </div>
@@ -65,7 +65,7 @@
             </div>
 
             <div class="mt-3">
-                <button type="button" class="btn btn-outline-light" id="boton">Generar grafico</button>
+                <button type="button" class="btn btn-outline-light" id="boton">Generar gráfico</button>
             </div>
         </div>
 
